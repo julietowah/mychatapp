@@ -1,0 +1,15 @@
+// this file formats all my python codes and files
+{
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave":true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs:": [
+        "--line-length",
+        "119"
+    ],
+    "[python]":{
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
